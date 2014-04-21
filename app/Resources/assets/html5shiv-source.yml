@@ -1,0 +1,21 @@
+assets:
+    html5shiv:
+        inputs:
+            - ../../../vendor/afarkas/html5shiv/dist/html5shiv.js
+        options:
+            output: dist/html5shiv.js
+    html5shiv_min:
+        inputs:
+            - ../../../vendor/afarkas/html5shiv/dist/html5shiv.min.js
+        options:
+            output: dist/html5shiv.min.js
+    html5shiv_print:
+        inputs:
+            - ../../../vendor/afarkas/html5shiv/dist/html5shiv-printshiv.js
+        options:
+            output: dist/html5shiv-printshiv.js
+    html5shiv_print_min:
+        inputs:
+            - ../../../vendor/afarkas/html5shiv/dist/html5shiv-printshiv.min.js
+        options:
+            output: dist/html5shiv-printshiv.min.js

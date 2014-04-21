@@ -4,3 +4,11 @@ services:
         class: Apnet\Dev\TwigExtension
         tags:
             - { name: twig.extension }
+
+    apnet.assetic.importer.html5shiv:
+        parent: assetic.importer_pre
+        arguments:
+            - %kernel.root_dir%/Resources/assets/html5shiv-source.yml
+            - html5shiv
+        tags:
+            - { name: apnet.assetic.config_mapper, watcher: pre }
