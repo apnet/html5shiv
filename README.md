@@ -45,3 +45,9 @@ To include Html5Shiv into Twig template use **imported_asset** function:
 ``` html
 <!--[if lt IE 9]><script src="{{ imported_asset('html5shiv/html5shiv.min.js') }}"></script><![endif]-->
 ```
+
+or/and
+
+``` html
+<!--[if lt IE 9]><script src="{{ imported_asset('html5shiv/html5shiv-print.min.js') }}"></script><![endif]-->
+```
