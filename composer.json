@@ -1,7 +1,7 @@
 {
     "name" : "apnet/html5shiv",
     "description" : "Html5Shiv for AsseticImporter",
-    "type" : "symfony-bundle",
+    "type" : "library",
     "license" : "MIT",
     "authors" : [
         {
