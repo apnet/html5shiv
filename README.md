@@ -9,7 +9,7 @@ Add requirements to composer.json:
 ``` json
 {
   "require" : {
-    "apnet/html5shiv" : "~3.7,<4.0"
+    "apnet/html5shiv" : "~3.7"
   }
 }
 ```
