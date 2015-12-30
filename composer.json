@@ -28,7 +28,6 @@
             "dev-master": "3.7.x-dev"
         }
     },
-    "minimum-stability" : "beta",
     "autoload" : {
         "psr-0" : {
             "Apnet\\" : "src/"
